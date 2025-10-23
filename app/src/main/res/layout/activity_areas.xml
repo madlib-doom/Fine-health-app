@@ -13,12 +13,16 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Areas Page"
+        android:text="Most prevalent areas are:"
         android:textSize="20sp"
         android:gravity="center"
         android:textStyle="bold"
         android:textColor="#E3860F"
-        android:background="#4694C500"
+        android:background="@drawable/shape"
         android:padding="10dp"/>
-
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:id="@+id/areaswebview"/>
 </LinearLayout>

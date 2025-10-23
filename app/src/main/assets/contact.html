@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - Leukemia Awareness</title>
+    <style>
+        body {
+            font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom right, #f4f6f9, #e3f2fd);
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1565c0;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2rem;
+            letter-spacing: 1px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 2rem auto;
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h2 {
+            color: #0d47a1;
+            border-left: 5px solid #0d47a1;
+            padding-left: 10px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input, textarea {
+            padding: 0.75rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        input:focus, textarea:focus {
+            border-color: #1565c0;
+            outline: none;
+        }
+
+        button {
+            background-color: #1565c0;
+            color: white;
+            padding: 0.75rem 1rem;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #0d47a1;
+        }
+
+        .contact-info {
+            background: #e3f2fd;
+            border-left: 4px solid #1565c0;
+            padding: 1rem;
+            border-radius: 5px;
+            margin-top: 1.5rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: #1565c0;
+            color: white;
+            font-size: 0.9rem;
+            margin-top: 2rem;
+        }
+
+        @media (max-width: 600px) {
+            main {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Contact Us</h1>
+</header>
+
+<main>
+    <section>
+        <h2>Get in Touch</h2>
+        <p>
+            Have questions, feedback, or want to get involved?
+            Use the form below or reach out to us directly. We’d love to hear from you!
+        </p>
+
+        <form action="#" method="post">
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Type your message..." required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p><strong>Email:</strong> <a href="mailto:info@leukemiaawareness.org">info@leukemiaawareness.org</a></p>
+        <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+        <p><strong>Address:</strong> 123 Health Street, Wellness City, USA</p>
+    </section>
+</main>
+
+<footer>
+    &copy; 2025 Leukemia Awareness Initiative | All Rights Reserved
+</footer>
+
+</body>
+</html>
