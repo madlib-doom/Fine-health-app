@@ -26,15 +26,15 @@ class splashactivity : AppCompatActivity() {
             finish()
         },5000)
         val logo1 = findViewById<ImageView>(R.id.logo1)
-        val logo2 = findViewById<ImageView>(R.id.logo2)
+
 
         // Load the bounce-fade animations
         val bounceFade1 = AnimationUtils.loadAnimation(this, R.anim.bounce_fade)
-        val bounceFade2 = AnimationUtils.loadAnimation(this, R.anim.bounce_fade_alt)
+
 
         // Start them
         logo1.startAnimation(bounceFade1)
-        logo2.startAnimation(bounceFade2)
+
 
 
     }
